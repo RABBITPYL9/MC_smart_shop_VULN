@@ -1,0 +1,22 @@
+# MC Smart Shop 1.0 SQL Inj Exploit
+# 0-Day by RABBITPYL9
+# 20.02.2019
+
+Vuln script category.php
+Parametr: id
+Expl: target/category.php?id=[SQL]
+
+Причина уязвимости: отсутствие фильтрафии входящих данных в $_GET параметре
+
+
+part2.
+
+
+Экзотическая уязвимость в сессии пользователя SQL INJ 0wn3d
+
+Применение - через куки менеджер
+
+уязвимый параметр "lang"
+
+
+0-Day
